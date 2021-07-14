@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+   font-family: poppins;
+}
+
+
+
+
+/*---------------------------------------------------------------   
+                       TOP-BANNER-PART
+----------------------------------------------------------------- */
+
+
+.top-banner{
+   background-color: #2D25A0;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  
+}
+.heading, .buttom{
+   margin-left: 50px;
+}
+.class-01{
+   color: white;
+   font-size: 64px;
+line-height: 80px;
+}
+.button{
+   color: white;
+   background-color:#E02C6D;
+   width: 168px;
+height: 44px;
+left: 156px;
+top: 464px
+}
+.img-top img{
+   width: 556.01px;
+   height: 438px;
+   left: 1299.01px;
+   top: 153px;
+}
+
+
+
+
+/* ----------------------------------------------------------------
+                           MIDDLE-PART 
+----------------------------------------------------------------*/
+
+
+.middle-part{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin: 70px;
+   /* overflow: hidden; */
+   /* position: relative; */
+}
+.player-detail{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 40px;
+   padding: 12px;
+   margin: 33px;
+   border-radius: 2px;
+   position: relative;
+}
+.player-details{
+   display: none;
+   position: absolute;
+   width: 355px;
+height: 271px;
+border-radius: 2px;
+   top: 0;
+}
+.player-detail:hover .player-details{
+   display: block;
+   background-color: rgba(235, 224, 204, 0.753);
+}
+.middle-part:hover .img{
+   transform: scale(1.1) ;
+   transition: transform 2s ease-in-out;
+}
+.img img{
+   width: 355px;
+height: 271px;
+border-radius: 2px;
+}
+
+
+
+/* -----------------------------------------------------------------
+                          BUTTOM-PART
+----------------------------------------------------------------- */
+
+.buttom-banner{
+   background-color: #2D25A0;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 103px;
+}
+.buttom-color{
+   color: white;
+}
+.img-buttom img{
+   width: 400px;
+   height: 400px;
+   margin: 70px;
+}
+
+
+/* -----------------------------------------------------------------
+                        LOGO-PART 
+    --------------------------------------------------------------*/
+.center{
+   text-align: center;
+}
+.logo img{
+   width: 250px;
+   height: 100px;
+}
+ .icons{
+    display: flex;
+   width: 35px;
+   height: 35px;
+   margin-left: 620px;
+ } 
+ .icon{
+    padding-left: 10px;
+ }
+  
+
+
+/* --------------------------------------------------------------------                           FOOTER PART 
+-----------------------------------------------------------------*/
+
+.color-1{
+   color: rgb(43, 184, 169);
+}
+.color-2{
+   color: rgb(243, 177, 188);
+}
+.text-size{
+   font-size: 200px;
+}
+footer{
+   background-color:rgb(143, 69, 16);
+   text-align: center;
+   padding: 20px 0 50px;
+}
+footer h4{
+   color:white;
+}
+
+
+/* -----------------------------------------------------------
+                            THE  END 
+----------------------------------------------------------------*/
